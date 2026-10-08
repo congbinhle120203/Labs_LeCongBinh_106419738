@@ -41,7 +41,7 @@ table, th, td {
 .month-heading-right {
   text-align: right;
 }
-nav a {
+nav a[href] {
   text-decoration: none;
   padding: 0.2em 0.6em;
   border: 4px solid #ccc;
@@ -54,7 +54,7 @@ ol ul {
 aside:hover {
   display: none;
 }
-nav a:hover {
+nav a[href]:hover {
   background-color: lightblue;
   border-color: darkblue;
 }
